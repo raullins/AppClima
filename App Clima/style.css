@@ -1,0 +1,86 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: hsla(0, 0%, 0%, 0.091);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.climaForm{
+    margin: 20px;
+}
+
+.cidadeInput{
+    padding: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+    border: 2px solid hsla(0, 0%, 20%, 0.319);
+    border-radius: 10px;
+    margin: 10px;
+    inline-size: 450px;
+}
+
+button[type="submit"]{
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 2rem;
+    background-color: hsla(124, 86%, 25%, 0.784);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover{
+    background-color: hsla(124, 84%, 34%, 0.784);
+}
+
+.climaCard{
+    background: linear-gradient(180deg, hsl(210, 100%, 75%), hsl(40, 100%, 75%));
+    padding: 50px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.542);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+h1{
+    margin-block-start: 0;
+    margin-block-end: 25px;
+}
+
+p{
+    font-size: 1.5rem;
+    margin: 7px;
+}
+
+.cidadeDisplay, .tempDisplay{
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: hsla(0, 0%, 0%, 0.772);
+    margin-block-end: 25px;
+}
+
+.humidadeDisplay{
+    font-weight: bold;
+    margin-block-end: 25px;
+}
+
+.descricDisplay{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.climaEmoji{
+    margin: 0;
+    font-size: 8rem;
+}
+
+.errorDisplay{
+    font-size: 2rem;
+    font-weight: bold;
+    color: hsla(0, 0%, 0%, 0.645);
+}
